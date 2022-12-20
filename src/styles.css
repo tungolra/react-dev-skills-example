@@ -1,0 +1,73 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.padding-0 {
+  padding: 0;
+}
+
+.teal-text {
+  color: teal;
+}
+.SkillListItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem;
+  padding: 0.2rem 0.6rem;
+  border: 0.2rem solid coral;
+  border-radius: 0.3rem;
+  list-style: none;
+  color: teal;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.SkillListItem > .level {
+  margin-left: 5rem;
+  padding: 0.3rem 0.8rem;
+  color: white;
+  background-color: teal;
+  border-radius: 0.8rem;
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+.NewSkillForm {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1rem;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  color: teal;
+  text-align: left;
+  border: 0.2rem solid coral;
+  border-radius: 0.3rem;
+  padding: 1rem;
+}
+
+.NewSkillForm > input,
+.NewSkillForm > select {
+  font-size: 1rem;
+  font-weight: bold;
+  color: teal;
+  padding: 0.2rem;
+  border: 0.2rem solid coral;
+  border-radius: 0.3rem;
+  outline: none;
+}
+
+.NewSkillForm > button {
+  grid-column: span 2;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  padding: 0.2rem;
+  background-color: teal;
+  border: 0.2rem solid teal;
+  border-radius: 0.3rem;
+}
